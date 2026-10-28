@@ -1,0 +1,23 @@
+# Keep the build context minimal: no VCS data, venvs, secrets, tests or CI files.
+.git
+.gitignore
+.gitattributes
+.venv
+venv
+.pytest_cache
+.ruff_cache
+__pycache__
+*.pyc
+reports
+tests
+docs
+scripts
+Jenkinsfile
+README.md
+requirements-dev.txt
+.env
+.env.*
+*.pem
+*.key
+*.crt
+id_rsa*
